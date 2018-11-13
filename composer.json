@@ -1,0 +1,25 @@
+{
+    "name": "leopardus/currency",
+    "description": "",
+    "authors": [
+        {
+            "name": "Leopardus",
+            "email": "contact@leoardus.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Currency\\Providers\\CurrencyServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Currency\\": ""
+        }
+    }
+}
